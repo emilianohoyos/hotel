@@ -33,8 +33,9 @@
                 font-weight: 100;
                 height: 100vh;
                 margin: 0;
-                background-image: url({{ asset('/img/cover.jpg') }})!important;
+
             }
+            body{background-image: url({{ asset('/img/cover.jpg') }})!important}
 
             .full-height {
                 height: 100vh;

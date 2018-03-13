@@ -54,8 +54,7 @@ class HomeController extends Controller
     public function eliminarregistro(Request $request){
         $usuario=usuarios::where('correo','=',$request->correo)->delete();
 
-
-        return view('welcome');
+        return redirect('welcome');
 
     }
 
